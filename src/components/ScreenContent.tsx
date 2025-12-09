@@ -19,6 +19,7 @@ export const ScreenContent = ({ title, path, children }: ScreenContentProps) => 
     </View>
   );
 };
+
 const styles = {
   container: `items-center flex-1 justify-center bg-white`,
   separator: `h-[1px] my-7 w-4/5 bg-gray-200`,
