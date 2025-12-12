@@ -3,16 +3,18 @@
     "name": "my-expo-app",
     "slug": "my-expo-app",
     "version": "1.0.0",
+    "scheme": "my-expo-app",
 
+  
     "web": {
       "favicon": "./assets/favicon.png"
     },
 
     "experiments": {
-      "tsconfigPaths": true
+      "typedRoutes": true
     },
 
-    "plugins": [],
+    "plugins": ["expo-router"],
 
     "orientation": "portrait",
     "icon": "./assets/icon.png",
