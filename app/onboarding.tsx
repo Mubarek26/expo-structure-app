@@ -6,7 +6,6 @@ export default function Onboarding() {
   return (
     <View className="p-4">
       <Text className="text-lg font-bold">Welcome to Onboarding</Text>
-      
     </View>
   );
 }
